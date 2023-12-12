@@ -1,5 +1,5 @@
-import './App.css';
-import Header from './Layouts/Header/Header';
+import "./App.css";
+import Header from "./Layouts/Header/Header";
 
 const App = () => {
   return (
@@ -7,6 +7,6 @@ const App = () => {
       <Header />
     </div>
   );
-}
+};
 
 export default App;
