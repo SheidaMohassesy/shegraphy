@@ -1,12 +1,12 @@
 import "./App.css";
 import Header from "./Layouts/Header/Header";
 
-const App = () => {
+function App() {
   return (
-    <div>
+    <div className="App">
       <Header />
     </div>
   );
-};
+}
 
 export default App;
