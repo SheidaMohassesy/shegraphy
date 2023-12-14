@@ -1,9 +1,18 @@
 import "./MenuItem.css";
 
-const MenuItem = () => {
+type MenuItemProps = {
+  title: string;
+  isSelected?: boolean;
+};
+
+const MenuItem = ({ title, isSelected }: MenuItemProps) => {
+  let cssClasses = "menu-item";
+  if (isSelected) {
+    cssClasses += " selected";
+  }
   return (
-    <div className="menu-item">
-      <a></a>
+    <div className={cssClasses}>
+      <a>{title}</a>
     </div>
   );
 };
