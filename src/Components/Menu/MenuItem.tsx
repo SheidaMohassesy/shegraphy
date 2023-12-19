@@ -1,11 +1,12 @@
 import "./MenuItem.css";
+import { Link } from "react-router-dom";
 
-const MenuItem = () => {
-  return (
-    <div className="menu-item">
-      <a></a>
-    </div>
-  );
+type MenuItemProps = {
+  title: string;
+  url: string;
+};
+const MenuItem = ({ title, url }: MenuItemProps) => {
+  return <Link to={url}>{title}</Link>;
 };
 
 export default MenuItem;
