@@ -6,7 +6,7 @@ const AboutPage = () => {
     <Layout>
       <p>This is about page</p>
       <hr />
-      <i>this is an italicdcjhdf</i>
+      <i>this is an italics</i>
     </Layout>
   );
 };
