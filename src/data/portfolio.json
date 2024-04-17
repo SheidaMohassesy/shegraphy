@@ -1,0 +1,11 @@
+{
+  "portfolio": [
+    {
+      "cover": "/portfolio/1/unnamed.png",
+      "title": "Answeria",
+      "description": "UI, UX, User Research",
+      "url": "/portfolio/answeria",
+      "open": "route"
+    }
+  ]
+}
